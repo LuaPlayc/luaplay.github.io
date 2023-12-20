@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#background {
+  background-image: url(https://media.discordapp.net/attachments/605202643937132554/1101844594657853500/bunda.gif?ex=65900a3e&is=657d953e&hm=823d14b595339c80e2d67f3c70bc794f23d71ef9eea2f1bcd21842638045df41&);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.314);
+  padding: 10px;
+}
